@@ -1,0 +1,17 @@
+start_url: https://www.royalroad.com/fiction/46113/kitty-cat-kill-sat/chapter/741095/chapter-001
+end_url: https://www.royalroad.com/fiction/46113/kitty-cat-kill-sat/chapter/959549/chapter-063-finale
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-large/46113-kitty-cat-kill-sat.jpg
+metadata:
+  title: Kitty Cat Kill Sat
+  author: argusthecat
+  description: |
+    Ownership of the last functioning piece of orbital infrastructure kind of puts you in a position of responsibility.
+
+    The fact that there's a lack of thumbs in the process makes it a challenge.
+
+    But challenge is, as far as anyone can prove, my middle name.
+selectors:
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1

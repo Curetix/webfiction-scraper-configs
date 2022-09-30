@@ -1,0 +1,29 @@
+officialBookUrl: https://amazon.com/dp/B07XX888DN
+startUrl: https://wanderinginn.com/2017/03/07/interlude-2/
+endUrl: https://wanderinginn.com/2017/07/29/2-41/
+metadata:
+  title: The Wandering Inn - Volume 2
+  author: pirateaba
+  description: |
+    Winter has come to the world, and still, Erin Solstice has no idea how she came to be an [Innkeeper] running an inn outside the city of Liscor.
+    
+    But she is no longer alone. Ryoka Griffin, the City Runner, has business in the south of Izril, on a dangerous delivery of her own. Yet while both young women from Earth have finally found a calling, more and more people are beginning to realize the visitors from Earth don’t belong here.
+    
+    Erin must find new guests and old for her inn, whilst expanding her tentative business. Staying safe would also be nice. At the same time, some pesky creatures have arrived to herald winter and bring mischief and a danger unlike anything Erin has seen.
+    
+    As more and more children of Earth begin appearing, the cold of winter is the least of Erin’s worries.
+selectors:
+  titleElement: .entry-title
+  contentElement: .entry-content
+  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
+  cutOffElement: p:has(a:-soup-contains("Next Chapter"))
+substitutions:
+  - selectorType: text
+    selector: <p>—-</p>
+    replaceWith: <hr/>
+  - selectorType: text
+    selector: "#8ae8ff"
+    replaceWith: "#528B99"
+  - chapterUrl: https://wanderinginn.com/2017/04/04/2-08/
+    selectorType: css
+    selector: p:first-of-type

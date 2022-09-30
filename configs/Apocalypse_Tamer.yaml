@@ -1,0 +1,16 @@
+start_url: https://www.royalroad.com/fiction/55672/apocalypse-tamer/chapter/932077/chapter-1-man-vs-wild
+metadata:
+  title: Apocalypse Tamer
+  author: Maxime J. Durand (Void Herald)
+  description: |
+    "Whoever will reach level 100 first shall become Earth’s new Overgod.2 So said the screen as dungeons summoned invaders from alternate realities, woke up ancient gods slumbering beneath the earth, and empowered humans with levels and classes. A battle royale of worldwide proportions begins as the world descends into anarchy. 
+    
+    But Basil Bohen doesn’t give a crap about the apocalypse.
+    
+    He would rather live in the woods with his monster pets, but people just won't leave him alone...
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-large/55672-apocalypse-tamer.jpg?time=1655818581
+selectors:
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1

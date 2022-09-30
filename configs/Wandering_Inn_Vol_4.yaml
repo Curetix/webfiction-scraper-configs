@@ -1,0 +1,26 @@
+officialBookUrl:
+  - https://amazon.com/dp/B09J3JGL2P
+  - https://amazon.com/dp/B0B2FBR2J4
+startUrl: https://wanderinginn.com/2018/01/06/4-00-k/
+endUrl: https://wanderinginn.com/2018/07/09/the-depthless-doctor/
+metadata:
+  title: The Wandering Inn - Volume 4
+  author: pirateaba
+  description: |
+    Kings awake, and emperors build new lands. Change is coming to the world, from the King of Destruction moving to a certain doctor finding more friends from home.
+    
+    The Wandering Inn has a princess who solves problems rather than creates them, and her name is Lyonette. Yet what happens when the innkeeper returns to manage her inn? Lyonette must learn to be a good employee rather than manage everything herself, and sharing power is never easy...
+    
+    Nor is it ever simple in war, but that is where Geneva Scala remains. In bloodier and increasingly brutal battlefields, The Last Light of Baleros is now growing in fame, but there is no future there. She is desperate, working against hostile forces who see her intervention as dangerous, and still bears the wounds of her previous war to save lives. But she is no longer alone.
+selectors:
+  titleElement: .entry-title
+  contentElement: .entry-content
+  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
+  cutOffElement: p:has(a:-soup-contains("Next Chapter"))
+substitutions:
+  - selectorType: text
+    selector: <p>—-</p>
+    replaceWith: <hr/>
+  - selectorType: text
+    selector: "#8ae8ff"
+    replaceWith: "#528B99"

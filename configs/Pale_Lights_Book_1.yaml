@@ -1,0 +1,20 @@
+startUrl: https://palelights.com/2022/08/17/chapter-1/
+metadata:
+  title: Pale Lights - Book 1
+  author: ErraticErrata
+  description: |
+    Tristan Abrascal is a thief, one of many making their living under the perpetual twilight of the greatest city in all of Vesper: Sacromonte. Quick wit and a contract with a capricious goddess have always kept him one step ahead, until one night he crosses a line by accident that burns all the bridges he had left. But not all is lost, for his mentor offers a way out of peril that turns out to be more than a simple escape.
+
+    It is also an opportunity to get even with the infanzones, the nobles he’s lived under all his life, and it so happens that Tristan has a full ledger’s worth of scores to settle with them.
+
+    Lady Angharad Tredegar has fled halfway across the world, leaving behind a ruin of a life: her family butchered by a ruthless enemy, their estate torched and their nobility revoked. Yet no matter how far she flees the blades of assassins follow, and she finds herself growing desperate for any protection. She has one relative left to call on, her estranged uncle in Sacromonte, but she finds that the safety he offers comes at a cost.
+
+    Angharad has sworn revenge, however, and her honour will allow for no compromise. She will do what she must to survive so that one day bloody vengeance can be visited upon her enemies.
+
+    The paths of the two take them to the doorstep of the Watch, but for desperate souls like them enrolment is a lost cause. They will have to do it the hard way instead, by surviving the trials on the isle known as the Dominion of Lost Things.
+
+    Where every year many go, and few return.
+selectors:
+  titleElement: .entry-title
+  contentElement: .entry-content
+  nextChapterElement: .nav-next a

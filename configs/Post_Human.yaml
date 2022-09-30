@@ -1,0 +1,13 @@
+start_url: https://www.royalroad.com/fiction/22848/post-human/chapter/327984/part-one-nikola-chapter-one
+end_url: https://www.royalroad.com/fiction/22848/post-human/chapter/377160/epilogue
+metadata:
+  title: Post Human
+  author: J P Koenig
+  description: |
+    What do you do when you find yourself the sole survivor of the complete destruction of Earth?  Nikola winds up in that position, disembodied in a half-built asteroid outpost, the last remnant and only hope of the human race.  Nikola exists now only in digital form, controlling drones and cameras to interact with the world.  But Nikola's memories are fractured, and there are endless obstacles between awakening as a glorified computer program and saving the species.  Is Nikola even human anymore?  Is it even possible to resurrect humanity?
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-full/22848-post-human.jpg
+selectors:
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1

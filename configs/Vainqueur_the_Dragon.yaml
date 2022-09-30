@@ -1,0 +1,26 @@
+official_book_url:
+  - https://amazon.com/dp/B081VRFXBM
+  - https://amazon.com/dp/B08KFY7ZLW
+  - https://amazon.com/dp/B098JYS959
+  - https://amazon.com/dp/B09T5MQPRK
+  - https://tapas.io/episode/2454114
+start_url: https://www.royalroad.com/fiction/26534/vainqueur-the-dragon/chapter/391208/1-vainqueur-the-dragon
+end_url: https://www.royalroad.com/fiction/26534/vainqueur-the-dragon/chapter/562875/153-game-epilogue-credits-afterword
+metadata:
+  title: Vainqueur the Dragon
+  author: Maxime J. Durand (Void Herald)
+  description: |
+    Vainqueur Knightsbane is your average dragon: a giant, fire-breathing lizard who loves to take naps on his golden hoard,
+    kidnap princesses for fun, and make the life of adventurers miserable.
+
+    Vainqueur's only pleasure in life is to watch his treasure get bigger, one coin at a time.
+
+    So when a would-be thief turned unwilling minion tells him about "classes," "levels," and "quests," Vainqueur wonders if maybe,
+    just maybe, he should consider a career change. After all, why bother hunting monsters for free when you can get paid for it?
+selectors:
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1
+skip_conversion: true
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-full/26534-vainqueur-the-dragon.jpg?time=1601898849

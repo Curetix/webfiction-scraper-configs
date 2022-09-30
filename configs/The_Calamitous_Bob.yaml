@@ -1,0 +1,29 @@
+start_url: https://www.royalroad.com/fiction/44132/the-calamitous-bob/chapter/700622/chapter-1-soul-slapped
+metadata:
+  title: The Calamitous Bob
+  author: Mecanimus
+  description: |
+    The world of Nyil, with its monsters, its knights and its mildly sociopathic gods. Come and see! A soul flees and a soul arrives, blessed by luck. Will she survive? Will she thrive? Will she become a calamity?
+
+    After all, luck is such a fickle thing.
+selectors:
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-full/the-calamitous-bob-aadaqzkf2q8.jpg?time=1623868741
+style: |
+  table {
+      background: #004b7a;
+      margin: 10px auto;
+      border: none;
+      box-shadow: 1px 1px 1px rgb(0 0 0 / 75%)
+      border-spacing: 2px;
+  }
+  table td {
+      margin: 3px;
+      padding: 5px;
+      color: #ccc;
+      border: 1px solid hsla(0,0%,100%,.25)!important;
+      background: rgba(0,0,0,.1);
+  }

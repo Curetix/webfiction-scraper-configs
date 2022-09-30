@@ -1,0 +1,42 @@
+officialBookUrl:
+  - https://www.amazon.de/gp/product/B0B2N9F382
+startUrl: https://wanderinginn.com/2018/07/10/5-00/
+endUrl: https://wanderinginn.com/2019/03/02/interlude-5/
+skipUrls:
+  - https://wanderinginn.com/2019/01/19/5-54/
+metadata:
+  title: The Wandering Inn - Volume 5
+  author: pirateaba
+  description: |
+    The spring rains have come and Liscor's entire geography changes with the dawning of the new year. The Floodplains of Liscor live up to their name, and the only way anyone is going to travel is by boat.
+    
+    With the rains come more monsters, dungeon delving, more goblins...not to mention some unwanted attention for the Wandering Inn.
+    
+    Erin Solstice is going further abroad than she's ever dreamed: as far as the Walled City of Pallass, the City of Invention. With the magic door drawing the attention of world powers and the looming crisis of the Goblin Lord, Erin Solstice's inn is busier than ever.
+selectors:
+  titleElement: .entry-title
+  contentElement: .entry-content
+  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
+  cutOffElement: p:has(a:-soup-contains("Next Chapter"))
+substitutions:
+  - selectorType: text
+    selector: <p>—-</p>
+    replaceWith: <hr/>
+  - chapterUrl: https://wanderinginn.com/2018/07/28/5-07/
+    selectorType: css
+    selector: p:first-of-type
+  - chapterUrl: https://wanderinginn.com/2018/07/31/5-08/
+    selectorType: css
+    selector: p:first-of-type
+  - chapterUrl: https://wanderinginn.com/2018/08/04/interlude-flos/
+    selectorType: css
+    selector: p:first-of-type
+  - chapterUrl: https://wanderinginn.com/2018/12/30/interlude-bird/
+    selectorType: css
+    selector: p:first-of-type
+  - chapterUrl: https://wanderinginn.com/2019/02/19/5-61/
+    selectorType: css
+    selector: p:first-of-type
+  - chapterUrl: https://wanderinginn.com/2019/03/02/interlude-5/
+    selectorType: css
+    selector: p:first-of-type

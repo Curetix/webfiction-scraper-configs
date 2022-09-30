@@ -1,0 +1,28 @@
+officialBookUrl:
+  - https://amazon.com/dp/B08MTVTY6M
+  - https://amazon.com/dp/B09BBP7GFZ
+startUrl: https://wanderinginn.com/2017/08/01/3-00-e/
+endUrl: https://wanderinginn.com/2017/12/30/interlude-4/
+metadata:
+  title: The Wandering Inn - Volume 3
+  author: pirateaba
+  description: |
+    The City of Celum is not much like Liscor at all. And while Erin is surrounded by familiar, Human faces, she’s far from home and without her inn.
+    
+    At the same time, a certain ill-tempered Lyonette is squatting in Erin’s inn, and Goblins are on the move. The Goblin Lord’s threat reaches across the entire region, and the Redfang Tribe has rallied against him with the Floodplains tribe, although their Chieftains do not agree on some crucial matters.
+    
+    The continent of Izril is rife with change as a young man named Laken Godart finds himself lost like all the others. Being naturally blind does not increase his odds of survival either, but with luck, he might survive the winter.
+    
+    This winter, there is only snow, Goblins, magic, and iambic pentameter.
+selectors:
+  titleElement: .entry-title
+  contentElement: .entry-content
+  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
+  cutOffElement: p:has(a:-soup-contains("Next Chapter"))
+substitutions:
+  - selectorType: text
+    selector: <p>—-</p>
+    replaceWith: <hr/>
+  - selectorType: text
+    selector: "#8ae8ff"
+    replaceWith: "#528B99"

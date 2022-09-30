@@ -1,0 +1,18 @@
+start_url: https://www.royalroad.com/fiction/46319/speedrunning-the-multiverse/chapter/745468/1-time-starts-now
+skip_urls:
+  - https://www.royalroad.com/fiction/46319/speedrunning-the-multiverse/chapter/841042/short-break-announcement
+metadata:
+  title: Speedrunning the Multiverse
+  author: adastra339
+  description: |
+    Dorian achieved his life's goal: reach the peak of power.
+
+    What now?
+
+    Do it all over again, of course. But faster.
+selectors:
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-full/46319-speedrunning-the-multiverse.jpg

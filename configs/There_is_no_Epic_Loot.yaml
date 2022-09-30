@@ -1,0 +1,26 @@
+start_url: https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/185054/1-smashing-start
+skip_chapters:
+  - https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/207349/artwork
+  - https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/211345/maestro
+  - https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/228095/map-updates
+  - https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/231193/update
+  - https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/303720/floor-maps-udated
+  - https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/352802/floor-2-update
+  - https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/577839/third-floor
+  - https://www.royalroad.com/fiction/15935/there-is-no-epic-loot-here-only-puns/chapter/920861/third-floor-map
+metadata:
+  title: There is no Epic Loot here, Only Puns.
+  author: stewart92
+  description: |
+    She became a dungeon core.
+
+    Everything pointed Delta to murdering her way to success. People were just mana farms, right?
+
+    No, that was wrong. Delta refused. Then everything became odd.
+skip_conversion: true
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-full/15935-there-is-no-epic-loot-here-only-puns.jpg
+selectors:
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1
