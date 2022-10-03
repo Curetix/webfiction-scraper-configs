@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Curetix/webfiction-scraper-configs/main/schema/fiction_config.schema.json",
+  "title": "Fiction config",
+  "description": "A fiction config for the Web Fiction Scraper",
+  "type": "object",
+  "properties": {
+    "official_book_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "start_url": {
+      "type": "string"
+    },
+    "end_url": {
+      "type": "string"
+    },
+    "skip_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "crawler_module": {
+      "type": "string",
+      "default": "Crawler"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string",
+          "default": "en",
+          "minLength": 2,
+          "maxLength": 2
+        },
+        "publisher": {
+          "type": "string",
+          "default": "Web Fiction Scraper"
+        },
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "author"
+      ],
+      "additionalProperties": true
+    },
+    "files": {
+      "type": "object",
+      "properties": {
+        "working_folder": {
+          "type": "string"
+        },
+        "cover_file": {
+          "type": "string"
+        },
+        "epub_file": {
+          "type": "string"
+        },
+        "ebook_formats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "copy_book_to": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": false,
+      "default": {}
+    },
+    "selectors": {
+      "type": "object",
+      "properties": {
+        "title_element": {
+          "type": "string"
+        },
+        "content_element": {
+          "type": "string"
+        },
+        "next_chapter_element": {
+          "type": "string"
+        },
+        "cut_off_element": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        }
+      },
+      "required": [
+        "title_element",
+        "content_element",
+        "next_chapter_element"
+      ],
+      "additionalProperties": false
+    },
+    "skip_conversion": {
+      "type": "boolean",
+      "default": false
+    },
+    "remove_empty_elements": {
+      "type": "boolean",
+      "default": true
+    },
+    "substitutions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "selector_type": {
+            "type": "string",
+            "enum": ["css", "regex", "text"]
+          },
+          "selector": {
+            "type": "string"
+          },
+          "chapter_url": {
+            "type": "string",
+            "default": ""
+          },
+          "replace_with": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "selector_type",
+          "selector"
+        ],
+        "additionalProperties": false
+      },
+      "default": []
+    },
+    "style": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "start_url",
+    "metadata",
+    "selectors"
+  ]
+}
