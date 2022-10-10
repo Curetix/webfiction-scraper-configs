@@ -30,6 +30,8 @@ skip_urls:
   - https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/683858/reminder-for-this-week
   - https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/847612/official-salvos-merchandise
   - https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/856306/salvos-volume-5-part-1-corruption-and-centinels
+  - https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/760258/200-special-side-character-popularity-poll
+  - https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/674514/a-witch-and-a-demon-walk-into-a
   - https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/866508/chapter-300-special-salvos-side-character-popularity
   - https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/889932/salvos-german-translation-is-officially-available
   - https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/919339/grand-skill-book-6-is-now-available-on-amazon
@@ -59,5 +61,24 @@ selectors:
   content_element: .chapter-content
   next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
   title_element: .fic-header h1
+  cutOffElement:
+    - p:-soup-contains("Author's Note:")
 files:
   cover_file: https://www.royalroadcdn.com/public/covers-large/37438-salvos-a-monster-evolution-litrpg.jpg?time=1662541652
+substitutions:
+  - selectorType: text
+    selector: —--
+    replaceWith: <hr/>
+  - selector_type: css
+    selector: .chapter-content hr:first-child
+  - selector_type: css
+    selector: ".chapter-content p[style='text-align: center']:first-child"
+  - chapter_url: https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/647214/76-refinement
+    selector_type: text
+    selector: "(Author’s Note: I may or may not have been projecting through Daniel here. I had been suffering from major jet lag when I wrote this a month ago.)"
+  - chapter_url: https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/804233/244-nightsveil-part-4
+    selector_type: css
+    selector: 'p:-soup-contains("Disclaimer: This chapter is written in an experimental style.")'
+  - chapter_url: https://www.royalroad.com/fiction/37438/salvos-a-monster-evolution-litrpg/chapter/804233/244-nightsveil-part-4
+    selector_type: css
+    selector: p:-soup-contains("I already know some of y'all are gonna complain about the experimental style.")
