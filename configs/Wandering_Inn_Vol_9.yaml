@@ -73,3 +73,30 @@ substitutions:
   - chapterUrl: https://wanderinginn.com/2022/09/28/interlude-the-great-race/
     selectorType: css
     selector: p:-soup-contains("https://wanderinginn.com/essay-ais-and-the-future-of-writing/")
+  - chapterUrl: https://wanderinginn.com/2022/10/09/9-19/
+    selectorType: css
+    selector: p:-soup-contains("Andrew Rowe has come out with Book 4 in his series, Arcane Ascension!")
+  - chapterUrl: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
+    selectorType: css
+    selector: p:-soup-contains("The Merch Store has Halloween-themed merchandise!")
+  - chapterUrl: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
+    selectorType: css
+    selector: p a img
+  - chapterUrl: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
+    selectorType: css
+    selector: p:-soup-contains("Book 8, Blood of Liscor, is coming out on Audible and as an e-book soon!")
+  - chapterUrl: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
+    selectorType: css
+    selector: p:-soup-contains("The author is on break until October 25!")
+  - chapterUrl: https://wanderinginn.com/2022/10/26/9-21/
+    selectorType: css
+    selector: p:-soup-contains("The Wandering Inn survey has a statistics page!")
+  - chapterUrl: https://wanderinginn.com/2022/10/30/9-22-gn/
+    selectorType: css
+    selector: p:-soup-contains("Trigger Warning")
+  - chapterUrl: https://wanderinginn.com/2022/11/02/9-23-ggggggggg/
+    selectorType: css
+    selector: p:-soup-contains("Trigger Warning")
+  - chapterUrl: https://wanderinginn.com/2022/11/05/9-24/
+    selectorType: css
+    selector: p:-soup-contains("Author’s Disclaimer:")
