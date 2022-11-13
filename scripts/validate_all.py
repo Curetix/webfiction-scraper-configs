@@ -11,8 +11,11 @@ CONFIGS_DIR = os.path.join(BASE_DIR, "configs")
 with open(os.path.join(BASE_DIR, "schema", "fiction_config.schema.json")) as file:
     schema = json.load(file)
 
+# Additionally to purely validating the YAML schema, we could also check things like the validity of URLs
+# Depending on the number of configs, this should probably be done selectively for the configs that have been changed
+
 for file in os.listdir(CONFIGS_DIR):
-    if file.endswith(".yaml"):
+    if file.endswith(".yaml") or file.endswith(".yml"):
         print('Validating "%s"' % file)
         try:
             config = Box.from_yaml(filename=os.path.join(CONFIGS_DIR, file), camel_killer_box=True)
