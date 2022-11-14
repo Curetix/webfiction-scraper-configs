@@ -1,4 +1,4 @@
-startUrl: https://palelights.com/2022/08/17/chapter-1/
+start_url: https://palelights.com/2022/08/17/chapter-1/
 metadata:
   title: Pale Lights - Book 1
   author: ErraticErrata
@@ -15,6 +15,6 @@ metadata:
 
     Where every year many go, and few return.
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .nav-next a
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .nav-next a

@@ -1,8 +1,8 @@
-officialBookUrl:
+official_book_url:
   - https://amazon.com/dp/B09Y6RQSHM
-startUrl: https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/643963/vol-2-chapter-1-full-steam-ahead
-endUrl: https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/853085/vol-2-epilouge
-skipUrls:
+start_url: https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/643963/vol-2-chapter-1-full-steam-ahead
+end_url: https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/853085/vol-2-epilouge
+skip_urls:
   - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/667501/collected-ln-teasers
   - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/691994/image-meiling-coloured
   - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/763933/boc-1st-popularity-poll
@@ -19,8 +19,8 @@ metadata:
     
     In which a transmigrator decides that the only winning move is not to play.
 files:
-  coverFile: https://www.royalroadcdn.com/public/covers-large/beware-of-chicken-aacav1xoeg8.jpg
+  cover_file: https://www.royalroadcdn.com/public/covers-large/beware-of-chicken-aacav1xoeg8.jpg
 selectors:
-  contentElement: .chapter-content
-  nextChapterElement: .nav-buttons a:-soup-contains("Next Chapter")
-  titleElement: .fic-header h1
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1

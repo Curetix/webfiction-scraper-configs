@@ -1,6 +1,6 @@
-startUrl: https://practicalguidetoevil.wordpress.com/2021/03/02/prologue-7/
-endUrl: https://practicalguidetoevil.wordpress.com/2022/02/26/epilogue-ii/
-skipUrls:
+start_url: https://practicalguidetoevil.wordpress.com/2021/03/02/prologue-7/
+end_url: https://practicalguidetoevil.wordpress.com/2022/02/26/epilogue-ii/
+skip_urls:
   - https://practicalguidetoevil.wordpress.com/2021/12/22/announcement/
 metadata:
   title: A Practical Guide to Evil - Book 7
@@ -12,6 +12,6 @@ metadata:
 
     Her name is Catherine Foundling, and she has a plan.
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .nav-next a
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .nav-next a

@@ -1,8 +1,8 @@
-officialBookUrl:
+official_book_url:
   - https://amazon.com/dp/B09J3JGL2P
   - https://amazon.com/dp/B0B2FBR2J4
-startUrl: https://wanderinginn.com/2018/01/06/4-00-k/
-endUrl: https://wanderinginn.com/2018/07/09/the-depthless-doctor/
+start_url: https://wanderinginn.com/2018/01/06/4-00-k/
+end_url: https://wanderinginn.com/2018/07/09/the-depthless-doctor/
 metadata:
   title: The Wandering Inn - Volume 4
   author: pirateaba
@@ -13,14 +13,14 @@ metadata:
     
     Nor is it ever simple in war, but that is where Geneva Scala remains. In bloodier and increasingly brutal battlefields, The Last Light of Baleros is now growing in fame, but there is no future there. She is desperate, working against hostile forces who see her intervention as dangerous, and still bears the wounds of her previous war to save lives. But she is no longer alone.
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
-  cutOffElement: p:has(a:-soup-contains("Next Chapter"))
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .entry-content a:-soup-contains("Next Chapter")
+  cut_off_element: p:has(a:-soup-contains("Next Chapter"))
 substitutions:
-  - selectorType: text
+  - selector_type: text
     selector: <p>—-</p>
-    replaceWith: <hr/>
-  - selectorType: text
+    replace_with: <hr/>
+  - selector_type: text
     selector: "#8ae8ff"
-    replaceWith: "#528B99"
+    replace_with: "#528B99"

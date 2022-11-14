@@ -1,6 +1,6 @@
-startUrl: https://practicalguidetoevil.wordpress.com/2019/01/14/prologue-5/
-endUrl: https://practicalguidetoevil.wordpress.com/2020/01/06/winter-iv/
-skipUrls:
+start_url: https://practicalguidetoevil.wordpress.com/2019/01/14/prologue-5/
+end_url: https://practicalguidetoevil.wordpress.com/2020/01/06/winter-iv/
+skip_urls:
   - https://practicalguidetoevil.wordpress.com/2020/01/05/update-schedule-book-vi/
 metadata:
   title: A Practical Guide to Evil - Book 5
@@ -12,6 +12,6 @@ metadata:
 
     Her name is Catherine Foundling, and she has a plan.
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .nav-next a
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .nav-next a

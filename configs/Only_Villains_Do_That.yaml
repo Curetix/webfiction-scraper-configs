@@ -1,4 +1,4 @@
-startUrl: https://www.royalroad.com/fiction/40182/only-villains-do-that/chapter/627178/11-in-which-the-dark-lord-technically-doesnt-push
+start_url: https://www.royalroad.com/fiction/40182/only-villains-do-that/chapter/627178/11-in-which-the-dark-lord-technically-doesnt-push
 metadata:
   title: Only Villains Do That
   author: Webbonomicon
@@ -25,8 +25,8 @@ metadata:
 
     A Dark Lord's gotta do what a Dark Lord's gotta do.
 files:
-  coverFile: https://www.royalroadcdn.com/public/covers-large/only-villains-do-that-aacawnrhlw8.jpg?time=1612511255
+  cover_file: https://www.royalroadcdn.com/public/covers-large/only-villains-do-that-aacawnrhlw8.jpg?time=1612511255
 selectors:
-  contentElement: .chapter-content
-  nextChapterElement: .nav-buttons a:-soup-contains("Next Chapter")
-  titleElement: .fic-header h1
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1

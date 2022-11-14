@@ -1,5 +1,5 @@
-startUrl: https://tiraas.net/2014/08/20/book-1-prologue/
-endUrl: https://tiraas.net/2020/10/06/bonus-65-the-girl-from-everywhere-part-2/
+start_url: https://tiraas.net/2014/08/20/book-1-prologue/
+end_url: https://tiraas.net/2020/10/06/bonus-65-the-girl-from-everywhere-part-2/
 metadata:
   title: The Gods are Bastards
   author: D. D. Webb
@@ -12,7 +12,7 @@ metadata:
 
     Evil is rising, and no one is ready…
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
-  cutOffElement: p:has(a:-soup-contains("Next Chapter")), p:has(a:-soup-contains("Previous Chapter"))
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .entry-content a:-soup-contains("Next Chapter")
+  cut_off_element: p:has(a:-soup-contains("Next Chapter")), p:has(a:-soup-contains("Previous Chapter"))

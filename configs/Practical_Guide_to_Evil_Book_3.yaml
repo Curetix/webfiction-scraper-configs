@@ -1,5 +1,5 @@
-startUrl: https://practicalguidetoevil.wordpress.com/2017/02/08/prologue-3/
-endUrl: https://practicalguidetoevil.wordpress.com/2018/04/09/prosecution-ii/
+start_url: https://practicalguidetoevil.wordpress.com/2017/02/08/prologue-3/
+end_url: https://practicalguidetoevil.wordpress.com/2018/04/09/prosecution-ii/
 metadata:
   title: A Practical Guide to Evil - Book 3
   author: erraticerrata
@@ -10,6 +10,6 @@ metadata:
 
     Her name is Catherine Foundling, and she has a plan.
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .nav-next a
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .nav-next a

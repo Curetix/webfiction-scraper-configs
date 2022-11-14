@@ -1,5 +1,5 @@
-startUrl: https://wanderinginn.com/2019/03/19/6-00/
-endUrl: https://wanderinginn.com/2020/01/01/6-68/
+start_url: https://wanderinginn.com/2019/03/19/6-00/
+end_url: https://wanderinginn.com/2020/01/01/6-68/
 metadata:
   title: The Wandering Inn - Volume 6
   author: pirateaba
@@ -14,44 +14,44 @@ metadata:
 
     She's an [Innkeeper].
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
-  cutOffElement: p:has(a:-soup-contains("Next Chapter"))
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .entry-content a:-soup-contains("Next Chapter")
+  cut_off_element: p:has(a:-soup-contains("Next Chapter"))
 substitutions:
-  - selectorType: text
+  - selector_type: text
     selector: <p>—-</p>
-    replaceWith: <hr/>
-  - chapterUrl: https://wanderinginn.com/2019/05/07/6-14-k/
-    selectorType: css
+    replace_with: <hr/>
+  - chapter_url: https://wanderinginn.com/2019/05/07/6-14-k/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/05/11/6-15-k/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/05/11/6-15-k/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/07/02/interlude-embria/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/07/02/interlude-embria/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/08/03/interlude-numbtongue-pt-2/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/08/03/interlude-numbtongue-pt-2/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/08/10/6-36-e/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/08/10/6-36-e/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/08/27/6-41-e/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/08/27/6-41-e/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/08/31/interlude-two-rats/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/08/31/interlude-two-rats/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/09/07/6-42-e/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/09/07/6-42-e/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/09/10/6-43-e/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/09/10/6-43-e/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2019/09/14/6-44-e/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2019/09/14/6-44-e/
+    selector_type: css
     selector: p:first-of-type
-  - chapterUrl: https://wanderinginn.com/2020/01/01/6-68/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2020/01/01/6-68/
+    selector_type: css
     selector: p:first-of-type

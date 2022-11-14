@@ -7,15 +7,15 @@
 # Adding this alerts the user that there is an official eBook available, in case the user wants to support the author.
 # Can also be a list of URLs, for example to promote multiple stores.
 # The scraper will of course still work.
-officialBookUrl: https://www.amazon.com/dp/B07G4MX1Z4
+official_book_url: https://www.amazon.com/dp/B07G4MX1Z4
 
 #####################################################################
 
 # URL of the first chapter (or prologue) of the webfiction
-startUrl: https://wanderinginn.com/2016/07/27/1-00/
+start_url: https://wanderinginn.com/2016/07/27/1-00/
 # OPTIONAL: URL of the last chapter. For example, if you want to split a fiction into different volumes, you can create
 # a config file for each.
-endUrl: https://wanderinginn.com/2017/03/04/1-45/
+end_url: https://wanderinginn.com/2017/03/04/1-45/
 # OPTIONAL: A list of URLs that you don't want in your final eBook. Will be skipped during download or conversion.
 # skipUrls:
 #  - https://...
@@ -46,47 +46,47 @@ metadata:
 # OPTIONAL: File locations / paths
 files:
   # By default, the working folder in named the same as the config file and placed inside data/. Default here would be:
-  workingFolder: Wandering_Inn_Vol_1
+  working_folder: Wandering_Inn_Vol_1
   # The following locations are relative to (inside) the workingFolder
   # Path to a cover image file.
-  coverFile: cover.jpg
+  cover_file: cover.jpg
   # The output EPUB file. Default here would be:
-  epubFile: The Wandering Inn - Volume 1.epub
+  epub_file: The Wandering Inn - Volume 1.epub
   # A list of alternative eBook formats (just the extension without name or dot) that the epub should be converted into.
   # Make sure Calibre's ebook-convert tool is in your PATH variable and usable through the command line.
-  ebookFormats:
+  ebook_formats:
     - mobi
   # A path where the final eBook gets copied to. If multiple formats are generated, this will be repeated for each of them.
-#  copyBookTo:
+#  copy_book_to:
 
 # Element CSS selectors (more information: https://facelessuser.github.io/soupsieve/)
 selectors:
   # Element containing the chapter title
   # (Select the element with the CSS class "entry-title")
-  titleElement: .entry-title
+  title_element: .entry-title
   # Element containing the chapter content
   # (Select the element with the class "entry-content")
-  contentElement: .entry-content
+  content_element: .entry-content
   # Element linking the next chapter, has to have the "href" attribute
   # (Select the link with text content "Next Chapter" inside the contentElement)
-  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
+  next_chapter_element: .entry-content a:-soup-contains("Next Chapter")
   # OPTIONAL: Element after which everything is removed, by default the last <p> inside contentElement
   # Since in The Wandering Inn links to previous / next chapters at the end of the post, we select that as cut-off
   # (Select the paragraph which contains a link with text content "Next Chapter")
-  cutOffElement: p:has(a:-soup-contains("Next Chapter"))
+  cut_off_element: p:has(a:-soup-contains("Next Chapter"))
 
 # Substitutions which will be applied to all chapters
 # By default, all empty elements, e.g. paragraphs, are removed. This can be disabled by including the following:
-# removeEmptyElements: false
+# remove_empty_elements: false
 # You can use css selectors, text or regular expressions.
 # For chapter-specific substitutions, include the chapter URL
-# If replaceWith is emitted, the selected element(s) will be removed
+# If replace_with is emitted, the selected element(s) will be removed
 substitutions:
   # This will be applied to all chapters
-  - selectorType: text
+  - selector_type: text
     selector: <p>—-</p>
-    replaceWith: <hr/>
+    replace_with: <hr/>
   # This one would only be applied to the specified chapter
   #- chapterUrl: https://wanderinginn.com/2017/03/04/1-45/
-  #  selectorType: css
+  #  selector_type: css
   #  selector: p:-soup-contains("Author’s Note")

@@ -1,7 +1,7 @@
-startUrl: https://wanderinginn.com/2022/06/03/9-00/
-skipUrls:
+start_url: https://wanderinginn.com/2022/06/03/9-00/
+skip_urls:
   - https://wanderinginn.com/2022/07/24/the-wandering-inn-ama/
-crawlerModule: WanderingInnPatreonCrawler
+crawler_module: WanderingInnPatreonCrawler
 metadata:
   title: The Wandering Inn - Volume 9
   author: pirateaba
@@ -16,10 +16,10 @@ metadata:
 
     She's an [Innkeeper].
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .entry-content a:-soup-contains("Next Chapter")
-  cutOffElement:
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .entry-content a:-soup-contains("Next Chapter")
+  cut_off_element:
     - p:-soup-contains("After Chapter Thoughts:")
     - p:-soup-contains("After Chapter Notes:")
     - p:-soup-contains("Author’s Story:")
@@ -29,74 +29,74 @@ selectors:
     - p:has(a:-soup-contains("Previous Chapter"))
     - p:has(a:-soup-contains("Next Chapter"))
 substitutions:
-  - selectorType: text
+  - selector_type: text
     selector: <p>—-</p>
-    replaceWith: <hr/>
-  - selectorType: text
+    replace_with: <hr/>
+  - selector_type: text
     selector: <p>—–</p>
-    replaceWith: <hr/>
-  - selectorType: text
+    replace_with: <hr/>
+  - selector_type: text
     selector: <p>——</p>
-    replaceWith: <hr/>
-  - chapterUrl: https://wanderinginn.com/2022/06/18/interlude-singing-ships/
-    selectorType: css
+    replace_with: <hr/>
+  - chapter_url: https://wanderinginn.com/2022/06/18/interlude-singing-ships/
+    selector_type: css
     selector: p:-soup-contains("I am on break until the 28th for Patrons!")
-  - chapterUrl: https://wanderinginn.com/2022/06/28/9-03/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/06/28/9-03/
+    selector_type: css
     selector: p:-soup-contains("What could this mean? Click here to learn about a free sweepstakes!")
-  - chapterUrl: https://wanderinginn.com/2022/07/02/9-04/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/07/02/9-04/
+    selector_type: css
     selector: p:-soup-contains("Check out this link for an announcement")
-  - chapterUrl: https://wanderinginn.com/2022/07/02/9-04/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/07/02/9-04/
+    selector_type: css
     selector: p:-soup-contains("I will be doing an AMA")
-  # - chapterUrl: https://wanderinginn.com/2022/07/05/interlude-the-isles-of-goblin-and-minos/
-  #   selectorType: text
+  # - chapter_url: https://wanderinginn.com/2022/07/05/interlude-the-isles-of-goblin-and-minos/
+  #   selector_type: text
   #   selector: <p><strong>*🐁 If you haven’t read Haldagaz and Rhata’s mini-chapters, go to Interlude &#8211; Hectval Pt. 2 and find them!</strong></p>
-  #   replaceWith: <hr/>
-  - chapterUrl: https://wanderinginn.com/2022/07/19/9-08/
-    selectorType: css
+  #   replace_with: <hr/>
+  - chapter_url: https://wanderinginn.com/2022/07/19/9-08/
+    selector_type: css
     selector: p:-soup-contains("The author is on break until July 30th!")
-  - chapterUrl: https://wanderinginn.com/2022/07/30/interlude-mundanity-and-memorials/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/07/30/interlude-mundanity-and-memorials/
+    selector_type: css
     selector: p:-soup-contains("Firebrand is a new story by a friend of mine, Quill!")
-  - chapterUrl: https://wanderinginn.com/2022/08/06/interlude-the-competition/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/08/06/interlude-the-competition/
+    selector_type: css
     selector: p:-soup-contains("The author is on an actual vacation for once")
   # TODO: https://wanderinginn.com/2022/08/20/9-09-p/ filter vacation report
-  - chapterUrl: https://wanderinginn.com/2022/09/10/9-15-vm/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/09/10/9-15-vm/
+    selector_type: css
     selector: p:-soup-contains("I am on break until the 20th of September!")
-  - chapterUrl: https://wanderinginn.com/2022/09/28/interlude-the-great-race/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/09/28/interlude-the-great-race/
+    selector_type: css
     selector: p:-soup-contains("I wrote an essay because")
-  - chapterUrl: https://wanderinginn.com/2022/09/28/interlude-the-great-race/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/09/28/interlude-the-great-race/
+    selector_type: css
     selector: p:-soup-contains("https://wanderinginn.com/essay-ais-and-the-future-of-writing/")
-  - chapterUrl: https://wanderinginn.com/2022/10/09/9-19/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/10/09/9-19/
+    selector_type: css
     selector: p:-soup-contains("Andrew Rowe has come out with Book 4 in his series, Arcane Ascension!")
-  - chapterUrl: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
+    selector_type: css
     selector: p:-soup-contains("The Merch Store has Halloween-themed merchandise!")
-  - chapterUrl: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
+    selector_type: css
     selector: p a img
-  - chapterUrl: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
+    selector_type: css
     selector: p:-soup-contains("Book 8, Blood of Liscor, is coming out on Audible and as an e-book soon!")
-  - chapterUrl: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/10/16/interlude-death-and-stitches/
+    selector_type: css
     selector: p:-soup-contains("The author is on break until October 25!")
-  - chapterUrl: https://wanderinginn.com/2022/10/26/9-21/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/10/26/9-21/
+    selector_type: css
     selector: p:-soup-contains("The Wandering Inn survey has a statistics page!")
-  - chapterUrl: https://wanderinginn.com/2022/10/30/9-22-gn/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/10/30/9-22-gn/
+    selector_type: css
     selector: p:-soup-contains("Trigger Warning")
-  - chapterUrl: https://wanderinginn.com/2022/11/02/9-23-ggggggggg/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/11/02/9-23-ggggggggg/
+    selector_type: css
     selector: p:-soup-contains("Trigger Warning")
-  - chapterUrl: https://wanderinginn.com/2022/11/05/9-24/
-    selectorType: css
+  - chapter_url: https://wanderinginn.com/2022/11/05/9-24/
+    selector_type: css
     selector: p:-soup-contains("Author’s Disclaimer:")

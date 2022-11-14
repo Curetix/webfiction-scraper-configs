@@ -1,7 +1,7 @@
-officialBookUrl:
+official_book_url:
   - https://amazon.com/dp/B09Y6RQSHM
-startUrl: https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/879865/interlude-day-at-the-beach
-skipUrls:
+start_url: https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/879865/interlude-day-at-the-beach
+skip_urls:
   - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/904526/notice-of-ama-and-removal-of-vol-1
 metadata:
   title: Beware Of Chicken - Volume 3
@@ -15,8 +15,8 @@ metadata:
     
     In which a transmigrator decides that the only winning move is not to play.
 files:
-  coverFile: https://www.royalroadcdn.com/public/covers-large/beware-of-chicken-aacav1xoeg8.jpg
+  cover_file: https://www.royalroadcdn.com/public/covers-large/beware-of-chicken-aacav1xoeg8.jpg
 selectors:
-  contentElement: .chapter-content
-  nextChapterElement: .nav-buttons a:-soup-contains("Next Chapter")
-  titleElement: .fic-header h1
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1

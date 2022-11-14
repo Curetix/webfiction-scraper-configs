@@ -1,5 +1,5 @@
-startUrl: https://practicalguidetoevil.wordpress.com/2015/03/25/prologue/
-endUrl: https://practicalguidetoevil.wordpress.com/2015/10/14/epilogue/
+start_url: https://practicalguidetoevil.wordpress.com/2015/03/25/prologue/
+end_url: https://practicalguidetoevil.wordpress.com/2015/10/14/epilogue/
 metadata:
   title: A Practical Guide to Evil - Book 1
   author: erraticerrata
@@ -10,6 +10,6 @@ metadata:
 
     Her name is Catherine Foundling, and she has a plan.
 selectors:
-  titleElement: .entry-title
-  contentElement: .entry-content
-  nextChapterElement: .nav-next a
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .nav-next a
