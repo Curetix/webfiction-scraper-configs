@@ -100,3 +100,24 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2022/11/05/9-24/
     selector_type: css
     selector: p:-soup-contains("Author’s Disclaimer:")
+  - chapter_url: https://wanderinginn.com/2022/11/16/interlude-adventurers-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("Join a free gift raffle for Blood of Liscor, the next book on Audible!")
+  - chapter_url: https://wanderinginn.com/2022/11/16/interlude-adventurers-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("The author is on break until November 26th!")
+  - chapter_url: https://wanderinginn.com/2022/11/27/9-25/
+    selector_type: css
+    selector: p:-soup-contains("The Merch Store is having a Black Friday sale!")
+  - chapter_url: https://wanderinginn.com/2022/11/27/9-25/
+    selector_type: css
+    selector: p:-soup-contains("The Blood of Liscor, Book 8 is out on Audible and as an e-book!")
+  - chapter_url: https://wanderinginn.com/2022/11/29/9-26-f/
+    selector_type: css
+    selector: p:-soup-contains("Gravesong is out now on Yonder!")
+  - chapter_url: https://wanderinginn.com/2022/12/04/9-27-rc/
+    selector_type: css
+    selector: p:-soup-contains("Gravesong is out now on Yonder!")
+  - chapter_url: https://wanderinginn.com/2022/12/18/9-29/
+    selector_type: css
+    selector: p:-soup-contains("This chapter is 45,000+ words long.")
