@@ -121,3 +121,9 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2022/12/18/9-29/
     selector_type: css
     selector: p:-soup-contains("This chapter is 45,000+ words long.")
+  - chapter_url: https://wanderinginn.com/2022/12/21/9-30/
+    selector_type: css
+    selector: p:-soup-contains("The Wandering Inn store is having a Solstice sale!")
+  - chapter_url: https://wanderinginn.com/2022/12/21/9-30/
+    selector_type: css
+    selector: p:-soup-contains("Trial of the Alchemist, a mystery-fantasy by Trevor Melanson")
