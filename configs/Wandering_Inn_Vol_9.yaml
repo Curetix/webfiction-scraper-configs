@@ -127,3 +127,6 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2022/12/21/9-30/
     selector_type: css
     selector: p:-soup-contains("Trial of the Alchemist, a mystery-fantasy by Trevor Melanson")
+  - chapter_url: https://wanderinginn.com/2022/12/25/9-31/
+    selector_type: css
+    selector: p:-soup-contains("The author is on break until January 17th!")
