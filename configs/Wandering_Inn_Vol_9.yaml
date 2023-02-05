@@ -130,3 +130,12 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2022/12/25/9-31/
     selector_type: css
     selector: p:-soup-contains("The author is on break until January 17th!")
+  - chapter_url: https://wanderinginn.com/2023/01/31/9-35-o/
+    selector_type: css
+    selector: p:-soup-contains("The Wandering Inn is putting out an open-call for a book marketer/publicist!")
+  - chapter_url: https://wanderinginn.com/2023/02/04/9-36-ho/
+    selector_type: css
+    selector: p:-soup-contains("I am taking two updates off to finish my rewrite of Volume 1.")
+  - chapter_url: https://wanderinginn.com/2023/02/15/9-37-ho/
+    selector_type: css
+    selector: p:-soup-contains("I am on my monthly break!")
