@@ -139,3 +139,36 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/02/15/9-37-ho/
     selector_type: css
     selector: p:-soup-contains("I am on my monthly break!")
+  - chapter_url: https://wanderinginn.com/2023/03/01/9-38-tv-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("The writing notes for 9.38 TV can be found here.")
+  - chapter_url: https://wanderinginn.com/2023/03/05/interlude-beginnings/
+    selector_type: css
+    selector: p:-soup-contains("Volume 1 has been completely rewritten and is up now.")
+  - chapter_url: https://wanderinginn.com/2023/03/12/9-40-gg/
+    selector_type: css
+    selector: p:-soup-contains("A huge thank you to the medical readers who contributed to this chapter!")
+  - chapter_url: https://wanderinginn.com/2023/03/19/interlude-brewing-sariants/
+    selector_type: css
+    selector: p:-soup-contains("The author is on break before they explode of tiredness.")
+  - chapter_url: https://wanderinginn.com/2023/03/29/interlude-the-spitoon/
+    selector_type: css
+    selector: p:-soup-contains("Casualfarmer author of Beware of Chicken")
+  - chapter_url: https://wanderinginn.com/2023/04/01/interlude-stories/
+    selector_type: css
+    selector: p:-soup-contains("Pale Lights, a new story by the author of A Practical Guide to Evil")
+  - chapter_url: https://wanderinginn.com/2023/04/01/interlude-stories/
+    selector_type: css
+    selector: p:-soup-contains("I am on break next update to write Gravesong")
+  - chapter_url: https://wanderinginn.com/2023/04/01/interlude-stories/
+    selector_type: css
+    selector: p:-soup-contains("I am no longer taking chem-reader submissions.")
+  - chapter_url: https://wanderinginn.com/2023/04/01/interlude-stories/
+    selector_type: css
+    selector: p:-soup-contains("Tears of Liscor, Book 9 of The Wandering Inn is up for pre-order")
+  - chapter_url: https://wanderinginn.com/2023/04/12/9-41-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("Podium Audio is featuring fanworks for the Tears of Liscor launch!")
+  - chapter_url: https://wanderinginn.com/2023/04/16/interlude-levels/
+    selector_type: css
+    selector: p:-soup-contains("I am taking a break until April 29th!")
