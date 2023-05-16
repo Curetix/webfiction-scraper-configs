@@ -1,6 +1,7 @@
 start_url: https://wanderinginn.com/2022/06/03/9-00/
 skip_urls:
   - https://wanderinginn.com/2022/07/24/the-wandering-inn-ama/
+  - https://wanderinginn.com/2023/04/15/may-2023-break/
 crawler_module: WanderingInnPatreonCrawler
 metadata:
   title: The Wandering Inn - Volume 9
@@ -172,3 +173,12 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/04/16/interlude-levels/
     selector_type: css
     selector: p:-soup-contains("I am taking a break until April 29th!")
+  - chapter_url: https://wanderinginn.com/2023/04/30/9-41-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("I am on break for the month of May to write a novel.")
+  - chapter_url: https://wanderinginn.com/2023/04/30/9-41-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("The Tears of Liscor is out on Audible.")
+  - chapter_url: https://wanderinginn.com/2023/04/30/9-41-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("The store has also launched a series of keychains!")
