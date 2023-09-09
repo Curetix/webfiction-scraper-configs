@@ -1,7 +1,10 @@
 start_url: https://wanderinginn.com/2022/06/03/9-00/
 skip_urls:
   - https://wanderinginn.com/2022/07/24/the-wandering-inn-ama/
-  - https://wanderinginn.com/2023/04/15/may-2023-break/
+  - https://wanderinginn.com/2023/05/01/may-2023-break/
+  - https://wanderinginn.com/2023/08/02/writing-update-warsong/
+  - https://wanderinginn.com/2023/08/15/warsong-update/
+  - https://wanderinginn.com/2023/08/26/no-chapter-on-the-26th/
 crawler_module: WanderingInnPatreonCrawler
 metadata:
   title: The Wandering Inn - Volume 9
@@ -19,7 +22,7 @@ metadata:
 selectors:
   title_element: .entry-title
   content_element: .entry-content
-  next_chapter_element: .entry-content a:-soup-contains("Next Chapter")
+  next_chapter_element: span.nav-next a[rel=next]
   cut_off_element:
     - p:-soup-contains("After Chapter Thoughts:")
     - p:-soup-contains("After Chapter Notes:")
@@ -182,3 +185,72 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/04/30/9-41-pt-3/
     selector_type: css
     selector: p:-soup-contains("The store has also launched a series of keychains!")
+  - chapter_url: https://wanderinginn.com/2023/06/04/interlude-trade-and-travel/
+    selector_type: css
+    selector: p:-soup-contains("MelasD, a fellow author and reader of The Wandering Inn")
+  - chapter_url: https://wanderinginn.com/2023/06/04/interlude-trade-and-travel/
+    selector_type: css
+    selector: 'p:-soup-contains("Foreword: I have returned.")'
+  - chapter_url: https://wanderinginn.com/2023/06/04/interlude-trade-and-travel/
+    selector_type: css
+    selector: p:-soup-contains("It is a day of prophecy.")
+  - chapter_url: https://wanderinginn.com/2023/06/04/interlude-trade-and-travel/
+    selector_type: css
+    selector: p:-soup-contains("In Batman’s The Dark Knight Returns")
+  - chapter_url: https://wanderinginn.com/2023/06/04/interlude-trade-and-travel/
+    selector_type: css
+    selector: p:-soup-contains("When I went to sleep, I woke up to find a huge carpenter ant crawling on me")
+  - chapter_url: https://wanderinginn.com/2023/06/04/interlude-trade-and-travel/
+    selector_type: css
+    selector: p:-soup-contains("I am Antman.")
+  - chapter_url: https://wanderinginn.com/2023/06/04/interlude-trade-and-travel/
+    selector_type: css
+    selector: p:-soup-contains("Nothing’s changed. Everything’s changed. It’s good to be back.")
+  - chapter_url: https://wanderinginn.com/2023/06/07/9-43-l/
+    selector_type: css
+    selector: p:-soup-contains("I am releasing a chapter a day rather than one every 3-4 days")
+  - chapter_url: https://wanderinginn.com/2023/06/08/9-44-p/
+    selector_type: css
+    selector: p:-soup-contains("I am releasing a chapter a day rather than one every 3-4 days")
+  - chapter_url: https://wanderinginn.com/2023/06/10/9-45-gt/
+    selector_type: css
+    selector: p:-soup-contains("I am releasing a chapter a day rather than one every 3-4 days")
+  - chapter_url: https://wanderinginn.com/2023/06/10/9-46-s/
+    selector_type: css
+    selector: p:-soup-contains("I am releasing a chapter a day rather than one every 3-4 days")
+  - chapter_url: https://wanderinginn.com/2023/06/13/9-47-u/
+    selector_type: css
+    selector: p:-soup-contains("I am releasing a chapter a day rather than one every 3-4 days")
+  - chapter_url: https://wanderinginn.com/2023/06/16/9-48-btiprljmwvrv/
+    selector_type: css
+    selector: p:-soup-contains("I am taking my monthly writing break until the 27th!")
+  - chapter_url: https://wanderinginn.com/2023/06/16/9-48-btiprljmwvrv/
+    selector_type: css
+    selector: p:-soup-contains("Trevor Melanson has released a new series")
+  - chapter_url: https://wanderinginn.com/2023/07/16/9-54-c/
+    selector_type: css
+    selector: p:-soup-contains("I am on break to finish writing Gravesong, Book 2")
+  - chapter_url: https://wanderinginn.com/2023/07/16/9-54-c/
+    selector_type: css
+    selector: p:-soup-contains("My friend Quill has released a new book")
+  - chapter_url: https://wanderinginn.com/2023/07/16/9-54-c/
+    selector_type: css
+    selector: p:-soup-contains("https://www.amazon.com")
+  - chapter_url: https://wanderinginn.com/2023/07/16/9-54-c/
+    selector_type: css
+    selector: p:-soup-contains("Martel has only one wish")
+  - chapter_url: https://wanderinginn.com/2023/08/30/9-55-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("I am taking a 1-update hiatus")
+  - chapter_url: https://wanderinginn.com/2023/08/30/9-55-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("The Wind Runner, Book 10 of The Wandering Inn, is now available for pre-order on Audible and Kindle")
+  - chapter_url: https://wanderinginn.com/2023/08/30/9-55-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("We have a new shirt featuring the Horns of Hammerad on the merch store")
+  - chapter_url: https://wanderinginn.com/2023/09/05/9-56/
+    selector_type: css
+    selector: p:-soup-contains("See the link here for details")
+  - chapter_url: https://wanderinginn.com/2023/09/05/9-56/
+    selector_type: css
+    selector: p:-soup-contains("We have a new shirt featuring the Horns of Hammerad on the merch store")
