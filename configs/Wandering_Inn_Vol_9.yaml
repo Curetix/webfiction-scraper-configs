@@ -26,10 +26,12 @@ selectors:
   cut_off_element:
     - p:-soup-contains("After Chapter Thoughts:")
     - p:-soup-contains("After Chapter Notes:")
+    - p:-soup-contains("Author Call:")
     - p:-soup-contains("Author’s Story:")
     - p:-soup-contains("Author’s Note:")
     - p:-soup-contains("Author’s Notes:")
     - p:-soup-contains("Author’s Thoughts:")
+    - p:-soup-contains("Author’s Note")
     - p:has(a:-soup-contains("Previous Chapter"))
     - p:has(a:-soup-contains("Next Chapter"))
 substitutions:
@@ -254,3 +256,21 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/09/05/9-56/
     selector_type: css
     selector: p:-soup-contains("We have a new shirt featuring the Horns of Hammerad on the merch store")
+  - chapter_url: https://wanderinginn.com/2023/09/09/9-57-b/
+    selector_type: css
+    selector: p:-soup-contains("The site needs a part-time webmaster")
+  - chapter_url: https://wanderinginn.com/2023/09/12/9-58-o/
+    selector_type: css
+    selector: p:-soup-contains("There will be official TWI Mugs available soon")
+  - chapter_url: https://wanderinginn.com/2023/09/12/9-58-o/
+    selector_type: css
+    selector: p:-soup-contains("When you win you can curl up on a chair in front of the fire")
+  - chapter_url: https://wanderinginn.com/2023/09/12/9-58-o/
+    selector_type: css
+    selector: p:-soup-contains("Alexander Wales, author of Worth the Candle")
+  - chapter_url: https://wanderinginn.com/2023/09/12/9-58-o/
+    selector_type: css
+    selector: p:-soup-contains("We have temporary issues with the commenting system")
+  - chapter_url: https://wanderinginn.com/2023/09/17/9-59-o/
+    selector_type: css
+    selector: p:-soup-contains("I am on break until October 7th for Patreon readers")
