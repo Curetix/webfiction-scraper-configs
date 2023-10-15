@@ -32,8 +32,24 @@ selectors:
     - p:-soup-contains("Author’s Notes:")
     - p:-soup-contains("Author’s Thoughts:")
     - p:-soup-contains("Author’s Note")
+    # For https://wanderinginn.com/2023/10/03/interlude-the-library/
+    - p:-soup-contains("These are only a few of the amazing Inktober art pieces coming out of the Discord")
+    # These two should alwas be at the end of the list!
     - p:has(a:-soup-contains("Previous Chapter"))
     - p:has(a:-soup-contains("Next Chapter"))
+style: |
+  @font-face {
+    font-family: "Charm";
+    src: url("./charm.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  .mrsha-write {
+      font-family: "Charm", cursive;
+      font-size: 110%;
+      letter-spacing: 0.12rem;
+  }
 substitutions:
   - selector_type: text
     selector: <p>—-</p>
@@ -274,3 +290,15 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/09/17/9-59-o/
     selector_type: css
     selector: p:-soup-contains("I am on break until October 7th for Patreon readers")
+  - chapter_url: https://wanderinginn.com/2023/09/17/9-59-o/
+    selector_type: css
+    selector: p:-soup-contains("Book 10 of The Wandering Inn, The Wind Runner, is out now!")
+  - chapter_url: https://wanderinginn.com/2023/10/15/9-60/
+    selector_type: css
+    selector: p:-soup-contains("Selkie Myth, author of Beneath the Dragoneye Moons")
+  - chapter_url: https://wanderinginn.com/2023/10/15/9-60/
+    selector_type: css
+    selector: p:-soup-contains("Art by fuyudust!")
+  - chapter_url: https://wanderinginn.com/2023/10/15/9-60/
+    selector_type: css
+    selector: p:has(a)
