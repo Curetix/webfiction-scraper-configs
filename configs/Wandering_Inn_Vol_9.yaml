@@ -302,3 +302,6 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/10/15/9-60/
     selector_type: css
     selector: p:has(a)
+  - chapter_url: https://wanderinginn.com/2023/10/17/9-61-g/
+    selector_type: css
+    selector: p:-soup-contains("MelasD is launching a Kickstarter for their book, Salvos!")
