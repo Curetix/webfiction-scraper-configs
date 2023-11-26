@@ -32,6 +32,7 @@ selectors:
     - p:-soup-contains("Author’s Notes:")
     - p:-soup-contains("Author’s Thoughts:")
     - p:-soup-contains("Author’s Note")
+    - p:-soup-contains("Authors’ Note:")
     # For https://wanderinginn.com/2023/10/03/interlude-the-library/
     - p:-soup-contains("These are only a few of the amazing Inktober art pieces coming out of the Discord")
     # These two should alwas be at the end of the list!
@@ -317,3 +318,10 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/11/19/9-65/
     selector_type: css
     selector: p:-soup-contains("We are selling a poster of the Winter’s Eve Solstice artwork")
+  - chapter_url: https://wanderinginn.com/2023/11/26/9-67-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("This chapter has been split into two parts for easier readability")
+  - chapter_url: https://wanderinginn.com/2023/11/26/9-67-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("Given the length of this chapter, I will skip an update on Tuesday")
+
