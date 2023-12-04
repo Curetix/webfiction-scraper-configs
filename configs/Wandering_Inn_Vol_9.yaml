@@ -324,4 +324,16 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/11/26/9-67-pt-1/
     selector_type: css
     selector: p:-soup-contains("Given the length of this chapter, I will skip an update on Tuesday")
+  - chapter_url: https://wanderinginn.com/2023/11/28/9-68/
+    selector_type: css
+    selector: p:-soup-contains("This chapter has a trigger warning for disturbing content")
+  - chapter_url: https://wanderinginn.com/2023/11/28/9-68/
+    selector_type: css
+    selector: p:-soup-contains("A trigger-free version of the chapter")
+  - chapter_url: https://wanderinginn.com/2023/11/28/9-68/
+    selector_type: css
+    selector: p:-soup-contains("A summary of the chapter has also been written here")
+  - chapter_url: https://wanderinginn.com/2023/11/28/9-68/
+    selector_type: css
+    selector: p:-soup-contains("I released this chapter early so I will take until the 5th to release the next chapter")
 
