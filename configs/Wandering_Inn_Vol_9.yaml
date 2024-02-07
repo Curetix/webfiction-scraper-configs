@@ -339,3 +339,6 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2023/12/23/volume-9-epilogue/
     selector_type: css
     selector: p:-soup-contains("I am taking a month’s break as well as Christmas off")
+  - chapter_url: https://wanderinginn.com/2023/12/06/9-69-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("I am taking a break to get ready for the final chapter of the Solstice")
