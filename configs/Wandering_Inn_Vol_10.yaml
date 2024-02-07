@@ -53,3 +53,6 @@ substitutions:
   - selector_type: text
     selector: <p>——</p>
     replace_with: <hr/>
+  - chapter_url: https://wanderinginn.com/2024/02/07/10-01-l/
+    selector_type: css
+    selector: p:-soup-contains("Will Wight is Kickstarting an animation for their Cradle series!")
