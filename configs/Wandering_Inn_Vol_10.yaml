@@ -56,3 +56,6 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/02/07/10-01-l/
     selector_type: css
     selector: p:-soup-contains("Will Wight is Kickstarting an animation for their Cradle series!")
+  - chapter_url: https://wanderinginn.com/2024/02/21/10-05/
+    selector_type: css
+    selector: p:-soup-contains("I am on break till March 5th!")
