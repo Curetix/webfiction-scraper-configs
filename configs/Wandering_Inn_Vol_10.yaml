@@ -62,3 +62,12 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/03/06/10-06/
     selector_type: css
     selector: p:-soup-contains("Read this blog about important changes to the update schedule of The Wandering Inn.")
+  - chapter_url: https://wanderinginn.com/2024/03/10/10-07/
+    selector_type: css
+    selector: p:-soup-contains("Book 12, The Witch of Webs, is now up for pre-order on Kindle and Amazon")
+  - chapter_url: https://wanderinginn.com/2024/03/10/10-07/
+    selector_type: css
+    selector: p:-soup-contains("Amazon:")
+  - chapter_url: https://wanderinginn.com/2024/03/10/10-07/
+    selector_type: css
+    selector: p:-soup-contains("Audible:")
