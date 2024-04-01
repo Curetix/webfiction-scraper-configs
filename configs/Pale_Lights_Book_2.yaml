@@ -1,0 +1,26 @@
+start_url: https://palelights.com/2023/07/28/chapter-1-2/
+metadata:
+  title: Pale Lights - Book 2
+  author: ErraticErrata
+  description: |
+    The trials of the Dominion are over.
+
+    The four survivors have become students of Scholomance, enrolling together as a cabal, yet even on those infamous grounds they soon learn none are beyond the reach of their pasts.
+
+    Angharad Tredegar is returned to a semblance of the world she left behind, but finds her honor sorely tested by bargains offered – every bit as tempting as in the stories and even deadlier.
+
+    Tristan Abrascal needs answers. Mysterious enemies keep trying to abduct him, his classroom does not exist and he’s now had several conversations with dead people. Worst of all, his carrots keep dying.
+
+    Maryam Khaimov is going mad, which would worry her less if it were happening on schedule. More frightening yet is the possibility that she is not, and there truly is someone else going around wearing her face.
+
+    Song Ren must forge the others into a functional unit, all the while fending off enemies on all sides: rival cabals, vengeful countrymen and the deluge of implacable foes her companions simply cannot seem to stop attracting.
+
+    Failure is not an option, for Song must bring back honor to her family’s name whatever the cost: it is the only way to keep their disgrace from literally eating them all alive.
+
+    And as the four chase shadows in Scholomance, in the distance looms the greater test awaiting them in the Asphodel Rectorate. Asphodel is a faded power, the rotten carcass of what it once was, but under that rot looms darker things – of which monsters might just be the least dangerous.
+
+    Besides, is treason really such an evil when you have the best of reasons for it?
+selectors:
+  title_element: .entry-title
+  content_element: .entry-content
+  next_chapter_element: .nav-next a
