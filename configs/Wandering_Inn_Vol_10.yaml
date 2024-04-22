@@ -92,3 +92,9 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/04/06/10-10-e-pt-1/
     selector_type: css
     selector: p:-soup-contains("And don’t forget to keep an eye on Cognita")
+  - chapter_url: https://wanderinginn.com/2024/04/06/10-10-e-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("This chapter was divided into two parts!")
+  - chapter_url: https://wanderinginn.com/2024/04/13/10-11-h/
+    selector_type: css
+    selector: p:-soup-contains("I am on vacation in another country!")
