@@ -98,3 +98,15 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/04/13/10-11-h/
     selector_type: css
     selector: p:-soup-contains("I am on vacation in another country!")
+  - chapter_url: https://wanderinginn.com/2024/04/27/10-12-h-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("The Gravesong giveaway is ending on the 29th!")
+  - chapter_url: https://wanderinginn.com/2024/04/27/10-12-h-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("If you’re in the US you can enter here")
+  - chapter_url: https://wanderinginn.com/2024/05/04/10-13/
+    selector_type: css
+    selector: p:-soup-contains("Gravesong is out now!")
+  - chapter_url: https://wanderinginn.com/2024/05/04/10-13/
+    selector_type: css
+    selector: p:-soup-contains("www.audible.com")
