@@ -110,3 +110,6 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/05/04/10-13/
     selector_type: css
     selector: p:-soup-contains("www.audible.com")
+  - chapter_url: https://wanderinginn.com/2024/05/18/10-15/
+    selector_type: css
+    selector: p:-soup-contains("I am on my monthly break! I’ll be back on the 1st of June!")
