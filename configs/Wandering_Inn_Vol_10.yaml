@@ -113,3 +113,30 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/05/18/10-15/
     selector_type: css
     selector: p:-soup-contains("I am on my monthly break! I’ll be back on the 1st of June!")
+  - chapter_url: https://wanderinginn.com/2024/06/08/10-17/
+    selector_type: css
+    selector: p:-soup-contains("The Witch of Webs, Book 12 of The Wandering Inn")
+  - chapter_url: https://wanderinginn.com/2024/06/08/10-17/
+    selector_type: css
+    selector: p:-soup-contains("www.audible.com")
+  - chapter_url: https://wanderinginn.com/2024/06/08/10-17/
+    selector_type: css
+    selector: p:-soup-contains("www.amazon.com")
+  - chapter_url: https://wanderinginn.com/2024/06/08/10-17/
+    selector_type: css
+    selector: p:-soup-contains("May need mic permissions")
+  - chapter_url: https://wanderinginn.com/2024/06/16/10-18-e/
+    selector_type: css
+    selector: p:-soup-contains("Trigger warning for this chapter.")
+  - chapter_url: https://wanderinginn.com/2024/06/16/10-18-e/
+    selector_type: css
+    selector: p:-soup-contains("I am taking my monthly break!")
+  - chapter_url: https://wanderinginn.com/2024/06/16/10-18-e/
+    selector_type: css
+    selector: p:-soup-contains("The Witch of Webs, Book 12 of The Wandering Inn, is out now!")
+  - chapter_url: https://wanderinginn.com/2024/06/16/10-18-e/
+    selector_type: css
+    selector: p:-soup-contains("www.audible.com")
+  - chapter_url: https://wanderinginn.com/2024/06/16/10-18-e/
+    selector_type: css
+    selector: p:-soup-contains("www.amazon.com")
