@@ -140,3 +140,18 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/06/16/10-18-e/
     selector_type: css
     selector: p:-soup-contains("www.amazon.com")
+  - chapter_url: https://wanderinginn.com/2024/06/30/10-19-e/
+    selector_type: css
+    selector: p:-soup-contains("A reader of The Wandering Inn has started their own web serial")
+  - chapter_url: https://wanderinginn.com/2024/06/30/10-19-e/
+    selector_type: css
+    selector: p:-soup-contains("www.royalroad.com")
+  - chapter_url: https://wanderinginn.com/2024/06/30/10-19-e/
+    selector_type: css
+    selector: p:-soup-contains("Book 13 of The Wandering Inn")
+  - chapter_url: https://wanderinginn.com/2024/06/30/10-19-e/
+    selector_type: css
+    selector: p:-soup-contains("https://a.co")
+  - chapter_url: https://wanderinginn.com/2024/06/30/10-19-e/
+    selector_type: css
+    selector: p:-soup-contains("www.audible.com")
