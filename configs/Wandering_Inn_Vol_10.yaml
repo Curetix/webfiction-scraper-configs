@@ -155,3 +155,9 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/06/30/10-19-e/
     selector_type: css
     selector: p:-soup-contains("www.audible.com")
+  - chapter_url: https://wanderinginn.com/2024/08/14/the-roots-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("Did you click ‘Slam’ on last chapter and find the other two parts?")
+  - chapter_url: https://wanderinginn.com/2024/08/14/the-roots-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("—pirateaba")
