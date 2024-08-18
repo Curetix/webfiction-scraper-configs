@@ -22,11 +22,11 @@ selectors:
     - p:-soup-contains("After Chapter Notes:")
     - p:-soup-contains("Author Call:")
     - p:-soup-contains("Author’s Story:")
-    - p:-soup-contains("Author’s Note:")
-    - p:-soup-contains("Author’s Notes:")
+    - p:-soup-contains("Writing Note:")
     - p:-soup-contains("Author’s Thoughts:")
     - p:-soup-contains("Author’s Note")
     - p:-soup-contains("Authors’ Note:")
+    - p:-soup-contains("Author’s Notes:")
     # These two should alwas be at the end of the list!
     - p:has(a:-soup-contains("Previous Chapter"))
     - p:has(a:-soup-contains("Next Chapter"))
@@ -161,3 +161,6 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/08/14/the-roots-pt-3/
     selector_type: css
     selector: p:-soup-contains("—pirateaba")
+  - chapter_url: https://wanderinginn.com/2024/08/18/the-roots-pt-5/
+    selector_type: css
+    selector: p:-soup-contains("The author is on break until the 31st!")
