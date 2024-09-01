@@ -17,6 +17,9 @@ selectors:
   title_element: .entry-title
   content_element: .entry-content
   next_chapter_element: span.nav-next a[rel=next]
+  content_start_element:
+    - chapter_url: https://wanderinginn.com/2024/09/01/10-22-r/
+      selector: p:-soup-contains("His hands. They wouldn’t stop shaking.")
   cut_off_element:
     - p:-soup-contains("After Chapter Thoughts:")
     - p:-soup-contains("After Chapter Notes:")
@@ -27,6 +30,8 @@ selectors:
     - p:-soup-contains("Author’s Note")
     - p:-soup-contains("Authors’ Note:")
     - p:-soup-contains("Author’s Notes:")
+    # 10.22 R, Authors Notes are at start of chapter
+    - p:-soup-contains("Jewel, by Kalabaza, Kuheno, and Pon, all commissioned by Rumina")
     # These two should alwas be at the end of the list!
     - p:has(a:-soup-contains("Previous Chapter"))
     - p:has(a:-soup-contains("Next Chapter"))
@@ -157,10 +162,7 @@ substitutions:
     selector: p:-soup-contains("www.audible.com")
   - chapter_url: https://wanderinginn.com/2024/08/14/the-roots-pt-3/
     selector_type: css
-    selector: p:-soup-contains("Did you click ‘Slam’ on last chapter and find the other two parts?")
-  - chapter_url: https://wanderinginn.com/2024/08/14/the-roots-pt-3/
-    selector_type: css
-    selector: p:-soup-contains("—pirateaba")
+    selector: blockquote:-soup-contains("pirateaba")
   - chapter_url: https://wanderinginn.com/2024/08/18/the-roots-pt-5/
     selector_type: css
     selector: p:-soup-contains("The author is on break until the 31st!")
