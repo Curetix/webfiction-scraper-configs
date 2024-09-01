@@ -105,6 +105,20 @@
         "next_chapter_element": {
           "type": "string"
         },
+        "content_start_element": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "chapter_url": {
+                "type": "string"
+              },
+              "selector": {
+                "type": "string"
+              }
+            }
+          }
+        },
         "cut_off_element": {
           "anyOf": [
             {
