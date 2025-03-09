@@ -1,4 +1,12 @@
 start_url: https://wanderinginn.com/2024/02/04/10-00-l/
+skip_urls:
+  - https://wanderinginn.com/2024/09/14/griefman-pt-1/
+  - https://wanderinginn.com/2024/09/14/griefman-pt-2/
+  - https://wanderinginn.com/2024/09/14/griefman-pt-3/
+  - https://wanderinginn.com/2024/10/26/tales-of-innworld-1/
+  - https://wanderinginn.com/2024/11/23/tales-of-innworld-2/
+  - https://wanderinginn.com/2025/01/25/today/
+  - https://wanderinginn.com/2025/02/23/tales-of-innworld-3/
 crawler_module: WanderingInnPatreonCrawler
 metadata:
   title: The Wandering Inn - Volume 10
@@ -20,6 +28,14 @@ selectors:
   content_start_element:
     - chapter_url: https://wanderinginn.com/2024/09/01/10-22-r/
       selector: p:-soup-contains("His hands. They wouldn’t stop shaking.")
+    - chapter_url: https://wanderinginn.com/2024/10/06/heroes-of-hraace-pt-2/
+      selector: p:-soup-contains("On the second day of their travel to Hraace, Elena Othonos sat down with Yvlon Byres")
+    - chapter_url: https://wanderinginn.com/2024/10/06/heroes-of-hraace-pt-3/
+      selector: p:-soup-contains("Maximillian ran.")
+    - chapter_url: https://wanderinginn.com/2024/10/13/10-24-e/
+      selector: p:-soup-contains("She dreamed she was still steering that ship on its final voyage.")
+    - chapter_url: https://wanderinginn.com/2024/12/22/10-30-ggmg/
+      selector: p:-soup-contains("“Who are you? Where do you come from? How…do you know my name?”")
   cut_off_element:
     - p:-soup-contains("After Chapter Thoughts:")
     - p:-soup-contains("After Chapter Notes:")
@@ -166,3 +182,48 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/08/18/the-roots-pt-5/
     selector_type: css
     selector: p:-soup-contains("The author is on break until the 31st!")
+  - chapter_url: https://wanderinginn.com/2024/09/08/10-23-lmgy/
+    selector_type: css
+    selector: p:-soup-contains("The month of Innktober is upon us once more!")
+  - chapter_url: https://wanderinginn.com/2024/11/03/10-25-mg/
+    selector_type: css
+    selector: p:-soup-contains("Announcing The Wandering Inn x Aleksandar Mitrovic Limited Edition")
+  - chapter_url: https://wanderinginn.com/2024/11/13/10-27-gmg/
+    selector_type: css
+    selector: p:-soup-contains("Book 14 of The Wandering Inn")
+  - chapter_url: https://wanderinginn.com/2024/11/13/10-27-gmg/
+    selector_type: css
+    selector: p:-soup-contains("Book 14 of The Wandering Inn")
+  - chapter_url: https://wanderinginn.com/2024/12/08/10-28-n/
+    selector_type: css
+    selector: p:-soup-contains("The Wandering Inn is now a webcomic!")
+  - chapter_url: https://wanderinginn.com/2025/01/11/10-31-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("This chapter has come out in two parts so make sure you read Pt. 1 first!")
+  - chapter_url: https://wanderinginn.com/2025/01/25/10-32-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("Trigger warning for this chapter.")
+  - chapter_url: https://wanderinginn.com/2025/01/25/10-32-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("I have written a blog post here, which I invite you to read.")
+  - chapter_url: https://wanderinginn.com/2025/01/25/10-32-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("Once again, this chapter has come out in two parts.")
+  - chapter_url: https://wanderinginn.com/2025/02/16/10-34-mgf/
+    selector_type: css
+    selector: p:-soup-contains("Trigger warning for this chapter.")
+  - chapter_url: https://wanderinginn.com/2025/03/02/10-35-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("We are running a survey for people interested in working on projects with The Wandering Inn!")
+  - chapter_url: https://wanderinginn.com/2025/03/02/10-35-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("The Merch Store has made two new posters for the City of Ropes and Nombernaught!")
+  - chapter_url: https://wanderinginn.com/2025/03/02/10-35-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("This chapter is split into three parts.")
+  - chapter_url: https://wanderinginn.com/2025/03/02/10-35-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("We are running a survey for people interested in working on projects with The Wandering Inn!")
+  - chapter_url: https://wanderinginn.com/2025/03/02/10-35-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("The Merch Store has made two new posters for the City of Ropes and Nombernaught!")
