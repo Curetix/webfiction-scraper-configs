@@ -1,0 +1,20 @@
+start_url: https://www.royalroad.com/fiction/65058/pale-lights/chapter/2193245/chapter-1
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-large/65058-pale-lights.jpg?time=1744334076
+metadata:
+  title: "Pale Lights Book III: Borrowed Trouble"
+  author: ErraticErrata
+  description: |
+    The Thirteenth Brigade returned from Asphodel famous and triumphant, but as their second year at Scholomance dawns they learn they cannot afford to rest on their laurels.
+
+    Between the fresh students flooding Port Allazei, the addition of a fifth member to the brigade and the mysteries revealed by a sinister graduation ceremony there is quite a bit of trouble to go around. Of course, the Unluckies being who they are, even before ancient nightmares begin running wild they’ve somehow found additional trouble to borrow. 
+
+    Tristan finds religion (then promptly loses it) while Angharad finds herself haunted by consequence (and, more concerningly, ghosts). Meanwhile, Song’s quest for accurate essay citations earns a (continuously rising) body count and Maryam learns that legacies are a heavy burden to bear (even when you have two backs).
+
+    As for Izel Coyac, still fresh to the Thirteenth, he does not need to borrow anything: trouble followed him all the way from home, and this time she isn’t taking no for an answer. 
+
+    By the time their second year comes to a close, no one will ever doubt again that the Unluckies earned every bit of that sobriquet.
+selectors:
+  title_element: .fic-header h1
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
