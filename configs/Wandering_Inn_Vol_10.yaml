@@ -7,6 +7,8 @@ skip_urls:
   - https://wanderinginn.com/2024/11/23/tales-of-innworld-2/
   - https://wanderinginn.com/2025/01/25/today/
   - https://wanderinginn.com/2025/02/23/tales-of-innworld-3/
+  - https://wanderinginn.com/2025/03/29/tales-of-innworld-4/
+  - https://wanderinginn.com/2025/04/12/tales-of-innworld-5/
 crawler_module: WanderingInnPatreonCrawler
 metadata:
   title: The Wandering Inn - Volume 10
@@ -227,3 +229,18 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2025/03/02/10-35-pt-2/
     selector_type: css
     selector: p:-soup-contains("The Merch Store has made two new posters for the City of Ropes and Nombernaught!")
+  - chapter_url: https://wanderinginn.com/2025/03/16/10-36-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("The Wandering Inn store is selling new frying pan keychains!")
+  - chapter_url: https://wanderinginn.com/2025/03/16/10-36-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("https://store.wanderinginn.com/products/frying-pan-keychain")
+  - chapter_url: https://wanderinginn.com/2025/04/06/10-37-gdi-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("This chapter was released in three parts. Be sure you started with Pt. 1!")
+  - chapter_url: https://wanderinginn.com/2025/04/06/10-37-gdi-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("Hey everyone, I’m taking my very-delayed yearly break until May 10th!")
+  - chapter_url: https://wanderinginn.com/2025/04/06/10-37-gdi-pt-3/
+    selector_type: css
+    selector: p:-soup-contains("This chapter was released in three parts. Be sure you started with Pt. 1!")
