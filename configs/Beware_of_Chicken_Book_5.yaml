@@ -1,0 +1,25 @@
+start_url: https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/1033689/book-5-beginning-v3c462-marching-to-the-hills
+end_url: https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/1943576/v5c74-the-cycle-continuesend-of-book-5
+skip_urls:
+  - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/1183665/web-volume-4release-volume-6-begins-chapter-1
+  - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/1878397/vol-4-hardcover-preorder
+  - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/1907722/beware-of-chicken-special-announcement
+  - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/1915390/boc-merch-for-5-tier-and-above-patreons
+  - https://www.royalroad.com/fiction/39408/beware-of-chicken/chapter/1925909/merch-shop-is-now-open-for-everyone
+metadata:
+  title: Beware of Chicken 5
+  author: Casualfarmer
+  description: |
+    Jin Rou wanted to be a cultivator who defied the heavens, and surpassed all limits.
+
+    Unfortunately for him, he died, and now I’m stuck here. Arrogant young masters? Heavenly tribulations? Cultivating for days on end, then getting into life or death battles?
+
+    Yeah, no thanks. I'm getting out of here.
+
+    In which a transmigrator decides that the only winning move is not to play.
+files:
+  cover_file: https://www.royalroadcdn.com/public/covers-large/beware-of-chicken-aacav1xoeg8.jpg
+selectors:
+  content_element: .chapter-content
+  next_chapter_element: .nav-buttons a:-soup-contains("Next Chapter")
+  title_element: .fic-header h1
