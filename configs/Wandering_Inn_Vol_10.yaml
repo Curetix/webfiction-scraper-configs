@@ -9,6 +9,7 @@ skip_urls:
   - https://wanderinginn.com/2025/02/23/tales-of-innworld-3/
   - https://wanderinginn.com/2025/03/29/tales-of-innworld-4/
   - https://wanderinginn.com/2025/04/12/tales-of-innworld-5/
+  - https://wanderinginn.com/2025/04/20/tales-of-innworld-6/
 crawler_module: WanderingInnPatreonCrawler
 metadata:
   title: The Wandering Inn - Volume 10
@@ -38,6 +39,8 @@ selectors:
       selector: p:-soup-contains("She dreamed she was still steering that ship on its final voyage.")
     - chapter_url: https://wanderinginn.com/2024/12/22/10-30-ggmg/
       selector: p:-soup-contains("“Who are you? Where do you come from? How…do you know my name?”")
+    - chapter_url: https://wanderinginn.com/2025/05/10/10-38-e/
+      selector: p:-soup-contains("On the continent of Baleros, along the southeastern coast, there is a grand jungle unsettled by any major civilization.")
   cut_off_element:
     - p:-soup-contains("After Chapter Thoughts:")
     - p:-soup-contains("After Chapter Notes:")
@@ -190,9 +193,6 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2024/11/03/10-25-mg/
     selector_type: css
     selector: p:-soup-contains("Announcing The Wandering Inn x Aleksandar Mitrovic Limited Edition")
-  - chapter_url: https://wanderinginn.com/2024/11/13/10-27-gmg/
-    selector_type: css
-    selector: p:-soup-contains("Book 14 of The Wandering Inn")
   - chapter_url: https://wanderinginn.com/2024/11/13/10-27-gmg/
     selector_type: css
     selector: p:-soup-contains("Book 14 of The Wandering Inn")
