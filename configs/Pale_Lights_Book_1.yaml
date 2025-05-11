@@ -15,6 +15,8 @@ metadata:
     The paths of the two take them to the doorstep of the Watch, but for desperate souls like them enrolment is a lost cause. They will have to do it the hard way instead, by surviving the trials on the isle known as the Dominion of Lost Things.
 
     Where every year many go, and few return.
+files:
+  cover_file: https://www.royalroadcdn.com/public/volume-covers-large/65058-5868.jpg
 selectors:
   title_element: .entry-title
   content_element: .entry-content

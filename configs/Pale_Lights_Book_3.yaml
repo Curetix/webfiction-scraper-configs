@@ -1,6 +1,4 @@
 start_url: https://www.royalroad.com/fiction/65058/pale-lights/chapter/2193245/chapter-1
-files:
-  cover_file: https://www.royalroadcdn.com/public/covers-large/65058-pale-lights.jpg?time=1744334076
 metadata:
   title: "Pale Lights Book III: Borrowed Trouble"
   author: ErraticErrata
@@ -14,6 +12,8 @@ metadata:
     As for Izel Coyac, still fresh to the Thirteenth, he does not need to borrow anything: trouble followed him all the way from home, and this time she isn’t taking no for an answer. 
 
     By the time their second year comes to a close, no one will ever doubt again that the Unluckies earned every bit of that sobriquet.
+files:
+  cover_file: https://www.royalroadcdn.com/public/volume-covers-large/65058-10247.jpg
 selectors:
   title_element: .fic-header h1
   content_element: .chapter-content

@@ -21,6 +21,8 @@ metadata:
     And as the four chase shadows in Scholomance, in the distance looms the greater test awaiting them in the Asphodel Rectorate. Asphodel is a faded power, the rotten carcass of what it once was, but under that rot looms darker things – of which monsters might just be the least dangerous.
 
     Besides, is treason really such an evil when you have the best of reasons for it?
+files:
+  cover_file: https://www.royalroadcdn.com/public/volume-covers-large/65058-aacajgez9hq-good-treasons.jpg
 selectors:
   title_element: .entry-title
   content_element: .entry-content
