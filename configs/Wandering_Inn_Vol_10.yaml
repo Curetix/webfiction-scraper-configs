@@ -41,6 +41,19 @@ selectors:
       selector: p:-soup-contains("“Who are you? Where do you come from? How…do you know my name?”")
     - chapter_url: https://wanderinginn.com/2025/05/10/10-38-e/
       selector: p:-soup-contains("On the continent of Baleros, along the southeastern coast, there is a grand jungle unsettled by any major civilization.")
+    - chapter_url: https://wanderinginn.com/2025/05/17/10-39-yn/
+      selector: p:-soup-contains("The visions began after a month and a half of what he could only describe as bliss.")
+    - chapter_url: https://wanderinginn.com/2025/07/05/mini-chapters-patreon-poll/
+      selector: p:-soup-contains("Zevara the Bored")
+    - chapter_url: https://wanderinginn.com/2025/07/19/10-43-rng-pt-1/
+      selector: p:-soup-contains("Records of Pathforger 77-1")
+    - chapter_url: https://wanderinginn.com/2025/08/01/10-44-z-pt-2/
+      selector: p:-soup-contains("Level 33 Streetwise Guardswoman!")
+    - chapter_url: https://wanderinginn.com/2025/08/23/10-45-l/
+      selector: p:-soup-contains("When she opened her eyes, a girl understood.")
+    - chapter_url: https://wanderinginn.com/2025/08/30/10-46-l/
+      selector: p:-soup-contains("There was a fine, justifiable, nay, sympathetic answer to why Duke Rhisveri had acted so rashly.")
+
   cut_off_element:
     - p:-soup-contains("After Chapter Thoughts:")
     - p:-soup-contains("After Chapter Notes:")
@@ -244,3 +257,42 @@ substitutions:
   - chapter_url: https://wanderinginn.com/2025/04/06/10-37-gdi-pt-3/
     selector_type: css
     selector: p:-soup-contains("This chapter was released in three parts. Be sure you started with Pt. 1!")
+  - chapter_url: https://wanderinginn.com/2025/05/31/10-41-t/
+    selector_type: css
+    selector: p:-soup-contains("I am on my monthly break until June 14th!")
+  - chapter_url: https://wanderinginn.com/2025/06/28/interlude-vernoue-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("Selkie Myth has just finished their web series")
+  - chapter_url: https://wanderinginn.com/2025/06/28/interlude-vernoue-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("A group of amazing [Readers] and [Singers] have performed Great Plains Sing!")
+  - chapter_url: https://wanderinginn.com/2025/07/20/10-43-rng-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("This is Part 2 of the 10.43 RNG chapter!")
+  - chapter_url: https://wanderinginn.com/2025/07/27/10-44-z-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("We have a fan-made game like Wordle!")
+  - chapter_url: https://wanderinginn.com/2025/07/27/10-44-z-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("www.wanderinginndle.app")
+  - chapter_url: https://wanderinginn.com/2025/09/21/interlude-halfseekers-pt-7/
+    selector_type: css
+    selector: p:-soup-contains("(I am taking my monthly break!")
+  - chapter_url: https://wanderinginn.com/2025/10/04/interlude-halfseekers-pt-8/
+    selector_type: css
+    selector: p:-soup-contains("We have a giveaway for the Singer of Terandria during the spooky month of October!")
+  - chapter_url: https://wanderinginn.com/2025/10/04/interlude-halfseekers-pt-8/
+    selector_type: css
+    selector: p:-soup-contains("sweepwidget.com")
+  - chapter_url: https://wanderinginn.com/2025/10/18/10-47-s-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("Once again I am on my monthly break until the 1st of November!")
+  - chapter_url: https://wanderinginn.com/2025/10/18/10-47-s-pt-1/
+    selector_type: css
+    selector: p:-soup-contains("This chapter begins after 10.40 T")
+  - chapter_url: https://wanderinginn.com/2025/10/22/10-47-s-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("I have put out a survey for feedback on the [Palace of Fates] arc!")
+  - chapter_url: https://wanderinginn.com/2025/10/22/10-47-s-pt-2/
+    selector_type: css
+    selector: p:-soup-contains("Also still on break till November 1st!")
